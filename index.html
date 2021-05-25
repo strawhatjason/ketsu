@@ -3,115 +3,46 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <title>KETSU Modules</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <style>
             body {
-                background-color: #222222;
+                background-color: #1F2937;
+            }
+
+            .card {
+                max-width: 540px;
+            }
+
+            #modules > .col > .card {
+                min-height: 192px;
+            }
+
+            @media (max-width: 767.98px) { 
+                img {
+                    width: 200px;
+                }
+
+                #modules > .col > .card {
+                    min-height: 240px;
+                }
             }
         </style>
     </head>
 
     <body>
-        <div class="container d-none">
-            <div class="row row-cols-1 row-cols-lg-2 row-cols-sm-1 row-cols-md-2">
-                <div class="col">
-                    <div class="card mb-3 mt-5" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4 text-center">
-                                <img src="https://shiro.is/assets/img/favicon.png" class="rounded img-fluid mx-auto d-block" alt="shiro logo" style="padding-top: 25px;">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Shiro</h5>
-                                    <p class="card-text">Watch best high-quality episodes in 720p, 1080p on Shiro. Best of all you can Stream all anime for free.</p>
-                                    <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/shiro.json" class="btn btn-dark">Add</a>
-                                </div>
-                            </div>
+        <div class="d-flex justify-content-center">
+            <div class="row row-cols-1">
+                <div class="card mt-5">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="https://i.imgur.com/wLacJYr.png" class="rounded img-fluid mx-auto" alt="library logo" draggable="false">
                         </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card mb-3 mt-5" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4 text-center">
-                                <img src="https://i.imgur.com/UXQ0Wn2.png" class="rounded img-fluid mx-auto d-block" alt="ReadComicOnline logo" style="width: 128px; padding-top: 20px;">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">ReadComicOnline</h5>
-                                    <p class="card-text">Read comics online in high quality for free, fast update, daily update.</p>
-                                    <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/readcomiconline.json" class="btn btn-dark">Add</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card mb-3 mt-5" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://hanime.tv/apple-touch-icon-precomposed.png" class="rounded img-fluid mx-auto d-block" alt="hanime logo">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">HAnime</h5>
-                                    <p class="card-text">Watch hentai online free download HD regularly released uncensored, subbed, in 720p and 1080p!</p>
-                                    <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/hanime.json" class="btn btn-danger">Add</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card mb-3 mt-5" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://i.imgur.com/1S1d0gv.png" class="rounded img-fluid mx-auto d-block" alt="toonily logo">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Toonily</h5>
-                                    <p class="card-text">Read English Korean manhwa and webtoons.</p>
-                                    <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/toonily.json" class="btn btn-danger">Add</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card mb-3 mt-5" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://i.imgur.com/ZrfNamF.png" class="rounded img-fluid mx-auto d-block" alt="webtoon.xyz logo">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Webtoon.xyz</h5>
-                                    <p class="card-text">Read Webtoon (Korean Manhwa) in English Online Free</p>
-                                    <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/webtoon.json" class="btn btn-danger" rel="noreferrer noopener">Add</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card mb-3 mt-5" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://i.imgur.com/2R12aFd.jpg" class="rounded img-fluid mx-auto d-block" alt="nhentai logo">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">NHentai</h5>
-                                    <p class="card-text">nhentai is a free hentai manga and doujinshi with over 350,000 galleries.</p>
-                                    <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/nhentai.json" class="btn btn-danger" rel="noreferrer noopener">Add</a>
-                                </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Jack's Modules</h5>
+                                <p class="card-text">All Jack's Modules...</p>
+                                <a href="ketsuapp://?moduleData=https://raw.githubusercontent.com/Cyborg714/ketsu/main/jack.json" class="btn btn-dark">Add</a>
                             </div>
                         </div>
                     </div>
@@ -119,11 +50,123 @@
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-sm-1 row-cols-md-2" id="modules"></div>
+        </div>
+
+        <script>
+            const modules = {
+                "video": [
+                    {
+                        "name": "Shiro",
+                        "type": "video",
+                        "nsfw": false,
+                        "show": true,
+                        "image": "https://shiro.is/assets/img/favicon.png",
+                        "info": "Watch best high-quality episodes in 720p, 1080p on Shiro. Best of all you can Stream all anime for free.",
+                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/shiro.json"
+                    },
+                    {
+                        "name": "HAnime",
+                        "type": "video",
+                        "nsfw": true,
+                        "show": true,
+                        "image": "https://hanime.tv/apple-touch-icon-precomposed.png",
+                        "info": "Watch hentai online free download HD regularly released uncensored, subbed, in 720p and 1080p!",
+                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/hanime.json"
+                    }
+                ],
+                "image": [
+                    {
+                        "name": "ReadComicOnline",
+                        "type": "image",
+                        "nsfw": false,
+                        "show": true,
+                        "image": "https://i.imgur.com/UXQ0Wn2.png",
+                        "info": "Read comics online in high quality for free, fast update, daily update.",
+                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/readcomiconline.json"
+                    },
+                    {
+                        "name": "Toonily",
+                        "type": "image",
+                        "nsfw": true,
+                        "show": true,
+                        "image": "https://i.imgur.com/1S1d0gv.png",
+                        "info": "Read English Korean manhwa and webtoons.",
+                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/toonily.json"
+                    },
+                    {
+                        "name": "Webtoon.xyz",
+                        "type": "image",
+                        "nsfw": true,
+                        "show": true,
+                        "image": "https://i.imgur.com/ZrfNamF.png",
+                        "info": "Read Webtoon (Korean Manhwa) in English Online Free",
+                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/webtoon.json"
+                    },
+                    {
+                        "name": "NHentai",
+                        "type": "image",
+                        "nsfw": true,
+                        "show": true,
+                        "image": "https://i.imgur.com/2R12aFd.jpg",
+                        "info": "nhentai is a free hentai manga and doujinshi with over 350,000 galleries.",
+                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/nhentai.json"
+                    }
+                ]
+            }
+        </script>
+
         <script>
             if (/iPad|iPhone|iPod/.test(navigator.platform) || navigator.platform === 'MacIntel') {
-                let element = document.querySelector('.container');
-                element.className = element.className.replace('d-none', '').trim();
+                const modulesEle = document.getElementById('modules')
+                for (const key in modules) {
+                    const module = modules[key]
+
+                    for (const m of module) {
+                        if (!m.show) {
+                            continue
+                        }
+
+                        let style = ''
+
+                        switch (m.name) {
+                            case 'Shiro':
+                                style = 'padding-top: 30px;'
+                                break
+                            
+                            case 'ReadComicOnline':
+                                style = 'width: 128px; padding-top: 30px;'
+                                break
+                            
+                            case 'NHentai':
+                            case 'HAnime':
+                            case 'Toonily':
+                            case 'Webtoon.xyz':
+                                style = 'padding-top: 6px;'
+                                break
+                        }
+
+                        const moduleEle = `<div class="col">
+                            <div class="card mb-3 mt-5">
+                                <div class="row g-0">
+                                    <div class="col-md-4 text-center">
+                                        <img src="${m.image}" class="rounded img-fluid mx-auto d-block" alt="${m.name} logo" style="${style}" draggable="false">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">${m.name}</h5>
+                                            <p class="card-text">${m.info}</p>
+                                            <a href="ketsuapp://?moduleData=${m.link}" class="btn btn-${m.nsfw ? 'danger' : 'dark'}">Add</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`
+
+                        modulesEle.innerHTML += moduleEle
+                    }
+                }
             }
         </script>
     </body>
