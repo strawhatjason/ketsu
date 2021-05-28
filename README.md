@@ -8,7 +8,7 @@ Make sure you KETSU installed, after visit https://cyborg714.github.io/ketsu/ an
 
 ## FAQ
 
-#### Can I push a module?
+#### Can I push/add a module?
 
 No
 
