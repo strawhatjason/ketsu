@@ -6,7 +6,7 @@
         "developer": "Jack_",
         "moduleID": "4Rd2dFvYSzf",
         "moduleImage": "https://i.imgur.com/UXQ0Wn2.png",
-        "moduleVersion": 1.1,
+        "moduleVersion": 1.2,
         "moduleLenguage": "ENG",
         "moduleType": "Image",
         "baseURL": "https://readcomiconline.li/",
@@ -168,7 +168,7 @@
                 ],
                 "httpBody": "keyword=<searched>"
             },
-            "separator": "",
+            "separator": "%20",
             "extra": {
                 "commands": [
                     {
