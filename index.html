@@ -66,15 +66,6 @@
             const modules = {
                 "video": [
                     {
-                        "name": "Shiro",
-                        "type": "video",
-                        "nsfw": false,
-                        "show": true,
-                        "image": "https://shiro.is/assets/img/favicon.png",
-                        "info": "Watch best high-quality episodes in 720p, 1080p on Shiro. Best of all you can Stream all anime for free.",
-                        "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/video/shiro.json"
-                    },
-                    {
                         "name": "HAnime",
                         "type": "video",
                         "nsfw": true,
@@ -116,7 +107,7 @@
                         "name": "Toonily",
                         "type": "image",
                         "nsfw": true,
-                        "show": false,
+                        "show": true,
                         "image": "https://i.imgur.com/1S1d0gv.png",
                         "info": "Read English Korean manhwa and webtoons.",
                         "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/image/toonily.json"
@@ -134,7 +125,7 @@
                         "name": "NHentai",
                         "type": "image",
                         "nsfw": true,
-                        "show": false,
+                        "show": true,
                         "image": "https://i.imgur.com/2R12aFd.jpg",
                         "info": "nhentai is a free hentai manga and doujinshi with over 350,000 galleries.",
                         "link": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/image/nhentai.json"
@@ -184,8 +175,9 @@
                                         <div class="card-body">
                                             <h5 class="card-title">${m.name}</h5>
                                             <p class="card-text">${m.info}</p>
-                                            <div class="d-grid d-md-block">
-                                                <a href="ketsuapp://?moduleData=${m.link}" class="btn btn-${m.nsfw ? 'danger' : 'dark'}">Add</a>
+                                            <div class="d-grid d-md-block vstack gap-2">
+                                                <a href="ketsuapp://?moduleData=${m.link}" class="btn btn-${m.nsfw ? 'danger' : 'dark'}">${m.type == 'image' ? 'Ketsu' : 'Add'}</a>
+                                                ${(m.type == 'image' ? `<a href='zetsuapp://?moduleData=${m.link}' class='gap-2 btn btn-${m.nsfw ? 'danger' : 'dark'}'>Zetsu</a>` : '')}
                                             </div>
                                         </div>
                                     </div>
