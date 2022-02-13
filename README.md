@@ -18,4 +18,6 @@ Here are some related projects
 
 [KETSU Modules - Suzuya](https://mprotmod.github.io/Modules-KETSU/)
 
-[Modules Ketsu de ナビル](https://bilna95.github.io/main/index)
+[Modules Ketsu de nabil](https://bilnaa.github.io/main/)
+
+[KETSU Modules - KnifeX] (https://ketsumodules.com/)
