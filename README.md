@@ -20,4 +20,4 @@ Here are some related projects
 
 [Modules Ketsu de nabil](https://bilnaa.github.io/main/)
 
-[KETSU Modules - KnifeX] (https://ketsumodules.com/)
+[KETSU Modules - KnifeX](https://ketsumodules.com/)
