@@ -1,16 +1,6 @@
 # KETSU Modules
 
-Some KETSU modules.
-
-## Installation 
-
-Make sure you KETSU installed, after visit https://cyborg714.github.io/ketsu/ and just tap on the 'Add' button.
-
-## FAQ
-
-#### Can I push/add a module?
-
-No
+No more updates
 
 ## Related
 
