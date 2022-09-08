@@ -1,10 +1,6 @@
 # KETSU Modules
 
-No more updates
-
-## Related
-
-Here are some related projects
+## No more updates
 
 [KETSU Modules - Suzuya](https://mprotmod.github.io/Modules-KETSU/)
 
