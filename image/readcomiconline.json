@@ -11,7 +11,7 @@
         "moduleType": "Image",
         "baseURL": "https://readcomiconline.li/",
         "moduleDeveloperSite": "https://github.com/strawhatjason/ketsu/",
-        "UpdateSite": "https://raw.githubusercontent.com/Cyborg714/ketsu/main/image/readcomiconline.json",
+        "UpdateSite": "https://github.com/strawhatjason/ketsu/blob/main/image/readcomiconline.json",
         "preferedServer": "",
         "preferedDownloadServer": "",
         "blackListed": [
