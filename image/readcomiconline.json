@@ -10,10 +10,10 @@
         "moduleLenguage": "ENG",
         "moduleType": "Image",
         "baseURL": "https://readcomiconline.li/",
-        "moduleDeveloperSite": "https://github.com/strawhatjason/ketsu/",
+        "moduleDeveloperSite": "https://mprotmod.github.io/Modules-KETSU/index.html",
         "UpdateSite": "https://github.com/strawhatjason/ketsu/blob/main/image/readcomiconline.json",
-        "preferedServer": "",
-        "preferedDownloadServer": "",
+        "preferedServer": "UM",
+        "preferedDownloadServer": "UM",
         "blackListed": [
             ""
         ]
@@ -468,7 +468,7 @@
             "resolver": [
                 {
                     "request": {
-                        "url": "",
+                        "url": "empty",
                         "method": "get",
                         "headers": [
                             {
