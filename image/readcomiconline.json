@@ -9,7 +9,7 @@
         "moduleVersion": 1.9,
         "moduleLenguage": "ENG",
         "moduleType": "Image",
-        "baseURL": "https://readcomiconline.li/",
+        "baseURL": "https://readcomiconline.li",
         "moduleDeveloperSite": "https://mprotmod.github.io/Modules-KETSU/index.html",
         "UpdateSite": "https://github.com/strawhatjason/ketsu/blob/main/image/readcomiconline.json",
         "preferedServer": "UM",
@@ -41,7 +41,7 @@
     "mainPage": [
         {
             "request": {
-                "url": "https://readcomiconline.li/",
+                "url": "https://readcomiconline.li",
                 "method": "get",
                 "headers": [
                     {
